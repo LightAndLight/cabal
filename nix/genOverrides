@@ -1,0 +1,8 @@
+#! /usr/bin/env bash
+
+while read line
+do
+  pushd "../$line"
+  cabal2nix . >"$line.nix"
+  popd
+done <overrides.txt
