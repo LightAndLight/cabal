@@ -1,0 +1,8 @@
+Cabal
+Cabal-QuickCheck
+Cabal-described
+Cabal-syntax
+Cabal-tests
+Cabal-tree-diff
+cabal-install
+cabal-install-solver
